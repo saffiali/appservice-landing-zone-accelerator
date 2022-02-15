@@ -4,6 +4,9 @@ targetScope='subscription'
 @description('A short name for the workload being deployed')
 param workloadName string
 
+@description('name of the location')
+param location string = deployment().location
+
 @description('The environment for which the deployment is being executed')
 @allowed([
   'dev'
@@ -35,7 +38,7 @@ param accountName string
 param personalAccessToken string
 
 // Variables
-var location = deployment().location
+var location = location
 var resourceSuffix = '${workloadName}-${environment}-${location}-001'
 var networkingResourceGroupName = 'rg-networking-${resourceSuffix}'
 var sharedResourceGroupName = 'rg-shared-${resourceSuffix}'
