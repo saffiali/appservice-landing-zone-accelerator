@@ -1,4 +1,4 @@
-AZURE_LOCATION: 'westus2'
+AZURE_LOCATION: 'uksouth'
 RESOURCE_NAME_PREFIX: 'ase-eslz'
 ENVIRONMENT_TAG: 'dev'
 DEPLOYMENT_NAME: 'ase-eslz-deployment'
