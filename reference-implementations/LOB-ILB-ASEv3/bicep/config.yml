@@ -1,5 +1,5 @@
 AZURE_LOCATION: 'uksouth'
-RESOURCE_NAME_PREFIX: 'ase-demo'
+RESOURCE_NAME_PREFIX: 'ase-eslz'
 ENVIRONMENT_TAG: 'dev'
 DEPLOYMENT_NAME: 'ase-eslz-deployment'
 VM_USERNAME: 'agent'
